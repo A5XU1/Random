@@ -71,8 +71,8 @@ class PyDraw:
 
         self.canvas.move(
             self.pen,
-            1 + self.canvas_width / 2,
-            1 + self.canvas_height / 2 + self.toolbar_height / 2
+            self.canvas_width / 2,
+            self.canvas_height / 2 + self.toolbar_height / 2
         )
 
         self.text1 = self.canvas.create_text(
