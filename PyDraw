@@ -130,8 +130,8 @@ class PyDraw:
 
             self.canvas.move(
                 self.pen,
-                1 + self.canvas_width / 2 + self.pen_x,
-                1 + self.canvas_height / 2
+                self.canvas_width / 2 + self.pen_x,
+                self.canvas_height / 2
                 + self.pen_y + self.toolbar_height / 2
             )
 
